@@ -48,7 +48,7 @@ public class standalonetest {
 		for(int i=0;i<10;i++) {
 			driver.findElement(By.xpath("//button[contains(text(),'Delete')][1]")).click();
 		}
-		
+		//comment
 		driver.navigate().back();
 		driver.findElement(By.linkText("Basic Auth")).click();
 		driver.navigate().back();
